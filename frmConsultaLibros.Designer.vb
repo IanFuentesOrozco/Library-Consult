@@ -42,10 +42,13 @@ Partial Class frmConsultaLibros
         Label7 = New Label()
         Label2 = New Label()
         txtTitulo = New TextBox()
+        stsEstado = New StatusStrip()
+        lblRegistros = New ToolStripStatusLabel()
         CType(dgvLibros, ComponentModel.ISupportInitialize).BeginInit()
         grpFiltros.SuspendLayout()
         grpDetalle.SuspendLayout()
         tlpDetalle.SuspendLayout()
+        stsEstado.SuspendLayout()
         SuspendLayout()
         ' 
         ' Label1
@@ -120,6 +123,7 @@ Partial Class frmConsultaLibros
         ' grpDetalle
         ' 
         grpDetalle.Controls.Add(tlpDetalle)
+        grpDetalle.Controls.Add(stsEstado)
         grpDetalle.Dock = DockStyle.Bottom
         grpDetalle.Location = New Point(0, 372)
         grpDetalle.Name = "grpDetalle"
@@ -154,14 +158,14 @@ Partial Class frmConsultaLibros
         tlpDetalle.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
         tlpDetalle.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
         tlpDetalle.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
-        tlpDetalle.Size = New Size(987, 173)
+        tlpDetalle.Size = New Size(987, 151)
         tlpDetalle.TabIndex = 0
         ' 
         ' txtAnio
         ' 
         txtAnio.BorderStyle = BorderStyle.FixedSingle
         txtAnio.Dock = DockStyle.Fill
-        txtAnio.Location = New Point(3, 132)
+        txtAnio.Location = New Point(3, 114)
         txtAnio.Name = "txtAnio"
         txtAnio.ReadOnly = True
         txtAnio.Size = New Size(322, 23)
@@ -172,7 +176,7 @@ Partial Class frmConsultaLibros
         ' 
         txtAutor.BorderStyle = BorderStyle.FixedSingle
         txtAutor.Dock = DockStyle.Fill
-        txtAutor.Location = New Point(331, 46)
+        txtAutor.Location = New Point(331, 40)
         txtAutor.Name = "txtAutor"
         txtAutor.ReadOnly = True
         txtAutor.Size = New Size(322, 23)
@@ -183,7 +187,7 @@ Partial Class frmConsultaLibros
         ' 
         txtEjemplares.BorderStyle = BorderStyle.FixedSingle
         txtEjemplares.Dock = DockStyle.Fill
-        txtEjemplares.Location = New Point(331, 132)
+        txtEjemplares.Location = New Point(331, 114)
         txtEjemplares.Name = "txtEjemplares"
         txtEjemplares.ReadOnly = True
         txtEjemplares.Size = New Size(322, 23)
@@ -194,7 +198,7 @@ Partial Class frmConsultaLibros
         ' 
         txtCategoria.BorderStyle = BorderStyle.FixedSingle
         txtCategoria.Dock = DockStyle.Fill
-        txtCategoria.Location = New Point(659, 46)
+        txtCategoria.Location = New Point(659, 40)
         txtCategoria.Name = "txtCategoria"
         txtCategoria.ReadOnly = True
         txtCategoria.Size = New Size(325, 23)
@@ -205,7 +209,7 @@ Partial Class frmConsultaLibros
         ' 
         txtPrecio.BorderStyle = BorderStyle.FixedSingle
         txtPrecio.Dock = DockStyle.Fill
-        txtPrecio.Location = New Point(659, 132)
+        txtPrecio.Location = New Point(659, 114)
         txtPrecio.Name = "txtPrecio"
         txtPrecio.ReadOnly = True
         txtPrecio.Size = New Size(325, 23)
@@ -215,7 +219,7 @@ Partial Class frmConsultaLibros
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(3, 86)
+        Label3.Location = New Point(3, 74)
         Label3.Name = "Label3"
         Label3.Size = New Size(29, 15)
         Label3.TabIndex = 7
@@ -233,7 +237,7 @@ Partial Class frmConsultaLibros
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Location = New Point(331, 86)
+        Label5.Location = New Point(331, 74)
         Label5.Name = "Label5"
         Label5.Size = New Size(64, 15)
         Label5.TabIndex = 9
@@ -251,7 +255,7 @@ Partial Class frmConsultaLibros
         ' Label7
         ' 
         Label7.AutoSize = True
-        Label7.Location = New Point(659, 86)
+        Label7.Location = New Point(659, 74)
         Label7.Name = "Label7"
         Label7.Size = New Size(40, 15)
         Label7.TabIndex = 11
@@ -270,12 +274,27 @@ Partial Class frmConsultaLibros
         ' 
         txtTitulo.BorderStyle = BorderStyle.FixedSingle
         txtTitulo.Dock = DockStyle.Fill
-        txtTitulo.Location = New Point(3, 46)
+        txtTitulo.Location = New Point(3, 40)
         txtTitulo.Name = "txtTitulo"
         txtTitulo.ReadOnly = True
         txtTitulo.Size = New Size(322, 23)
         txtTitulo.TabIndex = 13
         txtTitulo.TabStop = False
+        ' 
+        ' stsEstado
+        ' 
+        stsEstado.Items.AddRange(New ToolStripItem() {lblRegistros})
+        stsEstado.Location = New Point(3, 170)
+        stsEstado.Name = "stsEstado"
+        stsEstado.Size = New Size(987, 22)
+        stsEstado.TabIndex = 1
+        stsEstado.Text = "StatusStrip1"
+        ' 
+        ' lblRegistros
+        ' 
+        lblRegistros.Name = "lblRegistros"
+        lblRegistros.Size = New Size(108, 17)
+        lblRegistros.Text = "0 libro(s) en la vista"
         ' 
         ' frmConsultaLibros
         ' 
@@ -293,8 +312,11 @@ Partial Class frmConsultaLibros
         grpFiltros.ResumeLayout(False)
         grpFiltros.PerformLayout()
         grpDetalle.ResumeLayout(False)
+        grpDetalle.PerformLayout()
         tlpDetalle.ResumeLayout(False)
         tlpDetalle.PerformLayout()
+        stsEstado.ResumeLayout(False)
+        stsEstado.PerformLayout()
         ResumeLayout(False)
     End Sub
 
@@ -320,5 +342,7 @@ Partial Class frmConsultaLibros
     Friend WithEvents Label7 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents txtTitulo As TextBox
+    Friend WithEvents stsEstado As StatusStrip
+    Friend WithEvents lblRegistros As ToolStripStatusLabel
 
 End Class

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D7E9696-32A5-9901-446A-000FD37D9170}|BibliotecaConsulta.vbproj|c:\\users\\dell\\source\\repos\\bibliotecaconsulta\\frmconsultalibros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9D7E9696-32A5-9901-446A-000FD37D9170}|BibliotecaConsulta.vbproj|solutionrelative:frmconsultalibros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D7E9696-32A5-9901-446A-000FD37D9170}|BibliotecaConsulta.vbproj|c:\\users\\dell\\source\\repos\\bibliotecaconsulta\\frmconsultalibros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{9D7E9696-32A5-9901-446A-000FD37D9170}|BibliotecaConsulta.vbproj|solutionrelative:frmconsultalibros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
@@ -15,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{9D7E9696-32A5-9901-446A-000FD37D9170}|BibliotecaConsulta.vbproj|solutionrelative:frmconsultalibros.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D7E9696-32A5-9901-446A-000FD37D9170}|BibliotecaConsulta.vbproj|c:\\users\\dell\\source\\repos\\bibliotecaconsulta\\frmconsultalibros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9D7E9696-32A5-9901-446A-000FD37D9170}|BibliotecaConsulta.vbproj|solutionrelative:frmconsultalibros.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{9D7E9696-32A5-9901-446A-000FD37D9170}|BibliotecaConsulta.vbproj|c:\\users\\dell\\source\\repos\\bibliotecaconsulta\\modconexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9D7E9696-32A5-9901-446A-000FD37D9170}|BibliotecaConsulta.vbproj|solutionrelative:modconexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmConsultaLibros.vb [Design]",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\frmConsultaLibros.vb",
               "RelativeDocumentMoniker": "frmConsultaLibros.vb",
@@ -43,15 +47,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "frmConsultaLibros.vb",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\frmConsultaLibros.vb",
               "RelativeDocumentMoniker": "frmConsultaLibros.vb",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\frmConsultaLibros.vb*",
               "RelativeToolTip": "frmConsultaLibros.vb*",
-              "ViewState": "AgIAACYAAAAAAAAAAAAmwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-09-13T06:09:30.262Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModConexion.vb",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\ModConexion.vb",
+              "RelativeDocumentMoniker": "ModConexion.vb",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\ModConexion.vb",
+              "RelativeToolTip": "ModConexion.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-09-13T07:33:15.826Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmConsultaLibros.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\frmConsultaLibros.Designer.vb",
+              "RelativeDocumentMoniker": "frmConsultaLibros.Designer.vb",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\frmConsultaLibros.Designer.vb*",
+              "RelativeToolTip": "frmConsultaLibros.Designer.vb*",
+              "ViewState": "AgIAAC4BAAAAAAAAAAD4vzYBAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-09-13T06:43:04.782Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Application.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\My Project\\Application.Designer.vb",
+              "RelativeDocumentMoniker": "My Project\\Application.Designer.vb",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\My Project\\Application.Designer.vb",
+              "RelativeToolTip": "My Project\\Application.Designer.vb",
+              "ViewState": "AgIAAAUAAAAAAAAAAAD4vxAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-09-13T06:18:19.141Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -66,32 +112,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmConsultaLibros.Designer.vb",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\frmConsultaLibros.Designer.vb",
-              "RelativeDocumentMoniker": "frmConsultaLibros.Designer.vb",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\frmConsultaLibros.Designer.vb*",
-              "RelativeToolTip": "frmConsultaLibros.Designer.vb*",
-              "ViewState": "AgIAABsBAAAAAAAAAAD4vyMBAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-09-13T06:43:04.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Application.Designer.vb",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\My Project\\Application.Designer.vb",
-              "RelativeDocumentMoniker": "My Project\\Application.Designer.vb",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BibliotecaConsulta\\My Project\\Application.Designer.vb",
-              "RelativeToolTip": "My Project\\Application.Designer.vb",
-              "ViewState": "AgIAAAUAAAAAAAAAAAD4vxAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-09-13T06:18:19.141Z",
-              "EditorCaption": ""
             }
           ]
         }
