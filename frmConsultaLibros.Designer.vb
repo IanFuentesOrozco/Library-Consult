@@ -154,10 +154,10 @@ Partial Class frmConsultaLibros
         tlpDetalle.Location = New Point(3, 19)
         tlpDetalle.Name = "tlpDetalle"
         tlpDetalle.RowCount = 4
-        tlpDetalle.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
-        tlpDetalle.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
-        tlpDetalle.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
-        tlpDetalle.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
+        tlpDetalle.RowStyles.Add(New RowStyle(SizeType.Percent, 25F))
+        tlpDetalle.RowStyles.Add(New RowStyle(SizeType.Percent, 25F))
+        tlpDetalle.RowStyles.Add(New RowStyle(SizeType.Percent, 25F))
+        tlpDetalle.RowStyles.Add(New RowStyle(SizeType.Percent, 25F))
         tlpDetalle.Size = New Size(987, 151)
         tlpDetalle.TabIndex = 0
         ' 
@@ -298,7 +298,7 @@ Partial Class frmConsultaLibros
         ' 
         ' frmConsultaLibros
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(993, 567)
         Controls.Add(grpDetalle)
