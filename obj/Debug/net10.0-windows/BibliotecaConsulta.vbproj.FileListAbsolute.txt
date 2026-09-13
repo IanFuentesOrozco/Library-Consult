@@ -7,7 +7,6 @@ C:\Users\DELL\source\repos\BibliotecaConsulta\bin\Debug\net10.0-windows\Microsof
 C:\Users\DELL\source\repos\BibliotecaConsulta\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\DELL\source\repos\BibliotecaConsulta\bin\Debug\net10.0-windows\MySqlConnector.dll
 C:\Users\DELL\source\repos\BibliotecaConsulta\obj\Debug\net10.0-windows\BibliotecaConsulta.vbproj.AssemblyReference.cache
-C:\Users\DELL\source\repos\BibliotecaConsulta\obj\Debug\net10.0-windows\BibliotecaConsulta.Form1.resources
 C:\Users\DELL\source\repos\BibliotecaConsulta\obj\Debug\net10.0-windows\BibliotecaConsulta.vbproj.GenerateResource.cache
 C:\Users\DELL\source\repos\BibliotecaConsulta\obj\Debug\net10.0-windows\BibliotecaConsulta.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\DELL\source\repos\BibliotecaConsulta\obj\Debug\net10.0-windows\BibliotecaConsulta.AssemblyInfoInputs.cache
@@ -19,3 +18,5 @@ C:\Users\DELL\source\repos\BibliotecaConsulta\obj\Debug\net10.0-windows\refint\B
 C:\Users\DELL\source\repos\BibliotecaConsulta\obj\Debug\net10.0-windows\BibliotecaConsulta.pdb
 C:\Users\DELL\source\repos\BibliotecaConsulta\obj\Debug\net10.0-windows\BibliotecaConsulta.genruntimeconfig.cache
 C:\Users\DELL\source\repos\BibliotecaConsulta\obj\Debug\net10.0-windows\ref\BibliotecaConsulta.dll
+C:\Users\DELL\source\repos\BibliotecaConsulta\obj\Debug\net10.0-windows\BibliotecaConsulta.frmConsultaLibros.resources
+C:\Users\DELL\source\repos\BibliotecaConsulta\obj\Debug\net10.0-windows\BibliotecaConsulta.sourcelink.json

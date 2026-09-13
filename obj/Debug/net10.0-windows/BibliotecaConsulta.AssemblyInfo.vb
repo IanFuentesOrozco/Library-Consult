@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaConsulta"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31a1c564481eb64741b8cc24b7890f9e29429b5e"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("BibliotecaConsulta"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaConsulta"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
